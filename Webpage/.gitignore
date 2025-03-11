@@ -1,0 +1,10 @@
+# Ignore Allure result and report directories
+allure-results/
+allure-report/
+*.log
+
+# Node.js dependencies
+node_modules/
+
+# Skip .env file
+env/
