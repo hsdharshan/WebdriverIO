@@ -1,5 +1,5 @@
 {
-  "name": "Webpage",
+  "name": "webpage",
   "type": "module",
   "devDependencies": {
     "@wdio/allure-reporter": "^9.11.0",
@@ -9,5 +9,8 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
