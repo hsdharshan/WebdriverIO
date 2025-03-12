@@ -52,7 +52,11 @@ export const config: WebdriverIO.Config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'MicrosoftEdge'
+        browserName: 'MicrosoftEdge',
+        "ms:edgeOptions": {
+            args: ['--start-maximized',
+            ]
+        }
     }],
 
     //

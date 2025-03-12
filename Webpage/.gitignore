@@ -10,7 +10,7 @@ out/
 *.tsbuildinfo
 
 # Environment files
-env/
+**/.env
 
 # Allure reports
 allure-results/
