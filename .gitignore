@@ -1,5 +1,5 @@
 # Node modules
-node_modules/
+*/node_modules
 
 # Build files
 dist/
@@ -10,7 +10,7 @@ out/
 *.tsbuildinfo
 
 # Environment files
-**/.env
+*/.env
 
 # Allure reports
 allure-results/
@@ -28,3 +28,6 @@ yarn-error.log*
 
 # Coverage reports
 coverage/
+
+# Others
+Mobile/*.idea
